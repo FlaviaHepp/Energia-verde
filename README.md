@@ -6,7 +6,7 @@ El objetivo es analizar patrones temporales y geográficos y predecir un Green S
 
 --
 
-🎯 Objetivos del proyecto
+#🎯 Objetivos del proyecto
 
 - Analizar datos horarios de energía solar y eólica.
 - Comprender patrones diarios y geográficos de generación renovable.
@@ -19,7 +19,7 @@ El objetivo es analizar patrones temporales y geográficos y predecir un Green S
 
 --
 
-🌍 Contexto
+#🌍 Contexto
 
 A medida que el mundo avanza hacia economías de cero emisiones, evaluar el potencial renovable de los centros urbanos es clave para:
 - Planificación energética
@@ -31,7 +31,7 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
 
 --
 
-📁 Dataset
+#📁 Dataset
 - Archivo: global_green_energy_pulse_20260112.csv
 - Frecuencia: Horaria
 - Variables principales:
@@ -44,7 +44,7 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
 
 --
 
-🧹 Limpieza y preparación de datos
+#🧹 Limpieza y preparación de datos
 - Verificación de valores faltantes y duplicados.
 - Conversión de time a formato datetime.
 - Extracción de features temporales: año, mes, día, hora
@@ -57,7 +57,7 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
 
 --
 
-🔍 Análisis Exploratorio (EDA)
+#🔍 Análisis Exploratorio (EDA)
 📊 Análisis temporal
 - Radiación solar promedio por hora.
 - Velocidad del viento promedio por hora.
@@ -65,21 +65,21 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
 
 --
 
-🏙️ Análisis por ciudad
+#🏙️ Análisis por ciudad
 - Ranking de ciudades por Green Score promedio.
 - Heatmaps de radiación solar por ciudad y hora.
 - Comparación hemisférica y geográfica.
 
 --
 
-🔗 Relaciones clave
+#🔗 Relaciones clave
 - Solar vs. viento (complementariedad).
 - Green Score vs. latitud.
 - Distribución del Green Score (asimetría positiva).
 
 --
 
-📈 Visualizaciones
+#📈 Visualizaciones
 - Line plots temporales
 - Bar plots comparativos por ciudad
 - Histogramas de Green Score
@@ -88,7 +88,9 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
 - Matriz de correlación
 - Gráficos interactivos con Plotly
 
-🤖 Modelado Predictivo
+--
+
+#🤖 Modelado Predictivo
 - Variable objetivo
 - Green Score (regresión)
 - Features utilizadas
@@ -99,7 +101,7 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
 
 --
 
-🧠 Modelos entrenados
+#🧠 Modelos entrenados
 - Se comparan múltiples modelos:
 - Linear Regression
 - Random Forest
@@ -116,7 +118,7 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
 
 --
 
-📊 Resultados
+#📊 Resultados
 - Random Forest / Boosting models logran el mejor desempeño.
 - Radiación solar y velocidad del viento son los predictores dominantes.
 - El modelo muestra alta estabilidad en validación cruzada.
@@ -124,7 +126,7 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
 
 --
 
-🔎 Interpretabilidad
+#🔎 Interpretabilidad
 - Importancia de variables (feature importance).
 - Análisis explicativo con SHAP values.
 - Evaluación de residuos.
@@ -132,7 +134,7 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
 
 --
 
-💾 Persistencia y uso en producción
+#💾 Persistencia y uso en producción
 El proyecto guarda:
 - Modelo entrenado
 - Preprocesador
@@ -143,7 +145,7 @@ El proyecto guarda:
 
 --
 
-🛠️ Tecnologías utilizadas
+#🛠️ Tecnologías utilizadas
 - Python
 - pandas, numpy
 - matplotlib, `seaborn`
@@ -155,7 +157,7 @@ El proyecto guarda:
 
 --
 
-🌱 Insights clave
+#🌱 Insights clave
 - La radiación solar sigue un ciclo diario muy marcado.
 - El viento es más estable y complementa la energía solar.
 - El potencial renovable varía significativamente entre ciudades.
@@ -165,7 +167,7 @@ El proyecto guarda:
 
 --
 
-🚀 Posibles extensiones
+#🚀 Posibles extensiones
 - Forecasting a 24/48 horas.
 - Optimización de consumo industrial por horario.
 - Dashboards en tiempo real.
@@ -174,7 +176,7 @@ El proyecto guarda:
 
 --
 
-👤 Autor/a
+#👤 Autor/a
 
 Flavia Hepp
 Data Science · Machine Learning · Energy Analytics · Sustainability
