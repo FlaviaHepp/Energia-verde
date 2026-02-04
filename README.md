@@ -6,7 +6,7 @@ El objetivo es analizar patrones temporales y geográficos y predecir un Green S
 
 --
 
-#🎯 Objetivos del proyecto
+# 🎯Objetivos del proyecto
 
 - Analizar datos horarios de energía solar y eólica.
 - Comprender patrones diarios y geográficos de generación renovable.
