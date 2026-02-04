@@ -4,7 +4,10 @@ Este repositorio contiene un proyecto integral de análisis, visualización y mo
 
 El objetivo es analizar patrones temporales y geográficos y predecir un Green Score, una métrica que resume la favorabilidad combinada de recursos renovables en cada momento y ubicación.
 
+--
+
 🎯 Objetivos del proyecto
+
 - Analizar datos horarios de energía solar y eólica.
 - Comprender patrones diarios y geográficos de generación renovable.
 - Comparar el potencial renovable entre ciudades globales.
@@ -14,7 +17,10 @@ El objetivo es analizar patrones temporales y geográficos y predecir un Green S
 - Interpretar resultados mediante feature importance y SHAP values.
 - Guardar modelos listos para inferencia.
 
+--
+
 🌍 Contexto
+
 A medida que el mundo avanza hacia economías de cero emisiones, evaluar el potencial renovable de los centros urbanos es clave para:
 - Planificación energética
 - Optimización industrial
@@ -22,6 +28,8 @@ A medida que el mundo avanza hacia economías de cero emisiones, evaluar el pote
 - Sistemas híbridos solar–eólico
 
 Este proyecto analiza datos de megaciudades globales para aportar evidencia cuantitativa a estas decisiones.
+
+--
 
 📁 Dataset
 - Archivo: global_green_energy_pulse_20260112.csv
@@ -34,6 +42,8 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
 - time
 - green_score (variable objetivo)
 
+--
+
 🧹 Limpieza y preparación de datos
 - Verificación de valores faltantes y duplicados.
 - Conversión de time a formato datetime.
@@ -45,21 +55,29 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
    - features problemáticas
 - Escalado y codificación mediante pipelines.
 
+--
+
 🔍 Análisis Exploratorio (EDA)
 📊 Análisis temporal
 - Radiación solar promedio por hora.
 - Velocidad del viento promedio por hora.
 - Identificación de horas óptimas para generación solar y eólica.
 
+--
+
 🏙️ Análisis por ciudad
 - Ranking de ciudades por Green Score promedio.
 - Heatmaps de radiación solar por ciudad y hora.
 - Comparación hemisférica y geográfica.
 
+--
+
 🔗 Relaciones clave
 - Solar vs. viento (complementariedad).
 - Green Score vs. latitud.
 - Distribución del Green Score (asimetría positiva).
+
+--
 
 📈 Visualizaciones
 - Line plots temporales
@@ -79,6 +97,8 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
 - Latitud y longitud
 - Hora del día
 
+--
+
 🧠 Modelos entrenados
 - Se comparan múltiples modelos:
 - Linear Regression
@@ -94,17 +114,23 @@ Este proyecto analiza datos de megaciudades globales para aportar evidencia cuan
 - Validación cruzada K-Fold
 - Comparación por R², MAE y MSE
 
+--
+
 📊 Resultados
 - Random Forest / Boosting models logran el mejor desempeño.
 - Radiación solar y velocidad del viento son los predictores dominantes.
 - El modelo muestra alta estabilidad en validación cruzada.
 - El Green Score puede ser predicho con error bajo y buena generalización.
 
+--
+
 🔎 Interpretabilidad
 - Importancia de variables (feature importance).
 - Análisis explicativo con SHAP values.
 - Evaluación de residuos.
 - Comparación Predicho vs. Real.
+
+--
 
 💾 Persistencia y uso en producción
 El proyecto guarda:
@@ -115,15 +141,19 @@ El proyecto guarda:
   - predict(data)
 - Lista para integrarse en sistemas productivos o APIs.
 
+--
+
 🛠️ Tecnologías utilizadas
 - Python
 - pandas, numpy
-- matplotlib, seaborn
+- matplotlib, `seaborn`
 - plotly
 - scikit-learn
 - xgboost, lightgbm
 - shap
-- joblib
+- `joblib`
+
+--
 
 🌱 Insights clave
 - La radiación solar sigue un ciclo diario muy marcado.
@@ -133,12 +163,16 @@ El proyecto guarda:
 - Los sistemas híbridos maximizan la confiabilidad energética.
 - El Green Score es predecible con alta precisión.
 
+--
+
 🚀 Posibles extensiones
 - Forecasting a 24/48 horas.
 - Optimización de consumo industrial por horario.
 - Dashboards en tiempo real.
 - Integración con datos de demanda energética.
 - API de predicción de Green Score.
+
+--
 
 👤 Autor/a
 
