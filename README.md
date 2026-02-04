@@ -1,4 +1,4 @@
-# Inteligencia de Energías Renovables: Predicción de Puntuación Verde
+# Inteligencia de Energías Renovables: Predicción de Puntuación Verde 🌱⚡
 
 Este repositorio contiene un proyecto integral de análisis, visualización y modelado predictivo del potencial de energía renovable, combinando datos de energía solar y eólica en grandes ciudades del mundo.
 
